@@ -86,7 +86,7 @@ tribble(
   ~Year, ~Name, ~Institution, ~Supp, ~Amount,
     '2022', 'Graduate Travel Award', 'University of Pennsylvania, International Communication Association Conference 2022 ', NA, NA,
 
-  '2022', 'Best Poster Award', 'Social Affective Neuroscience Society 2022 ', 'Presented findings at an invited talk, titled "Brain responses to gain- and loss-framed messages differ, and interact with baseline physical activity, to predict later behaviors"', NA,
+  '2022', 'Top Poster Award', 'Social Affective Neuroscience Society 2022 ', 'Presented findings at an invited talk, titled "Brain responses to gain- and loss-framed messages differ, and interact with baseline physical activity, to predict later behaviors"', NA,
   
   '2018', "Best Master's Thesis Award", "Yonsei University Graduate Group", 'For the thesis titled "Voxel-wise mapping of functional magnetic resonance imaging in impression formation"',NA,
   
@@ -110,4 +110,15 @@ tribble(
 # PUBLICATIONS
 ```{r}
 bibliography_entries("publications.bib")
+```
+
+# PRESENTATIONS
+## Invited Talks
+```{r}
+bibliography_entries("presentations.bib")
+```
+
+## Conference Poster Presentations
+```{r}
+bibliography_entries("presentations.bib")
 ```
