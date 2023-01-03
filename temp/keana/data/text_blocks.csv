@@ -1,0 +1,4 @@
+Id used for finding text block,Contents of text block. Supports markdown formatting.
+loc,text
+data_analysis,"descriptive and inferential statistics, multivariate data visualization, multivariate regression "
+research,"survey design, experimental design, reproducibility (e.g., Github version control)"
