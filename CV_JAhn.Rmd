@@ -28,7 +28,7 @@ tribble(
    ~degree, ~lab, ~ loc, ~ dates,  ~ details,
     "Ph.D. Candidate in Psychology, University of Pennsylvania", "Communication Neuroscience Lab (Advisor: Emily Falk, Ph.D.), Department of Psychology", "Aug. 2019 - Present", "Philadelphia, PA",NA, 
 
-  "M.A. in Psychology, University of Pennsylvania", "Communication Neuroscience Laboratory (Advisor: Emily Falk, Ph.D.), Department of Psychology", "Aug. 2019 - Aug. 2021", "Philadelphia, PA", 
+  "M.A. in Psychology, University of Pennsylvania", "Communication Neuroscience Lab (Advisor: Emily Falk, Ph.D.), Department of Psychology", "Aug. 2019 - Aug. 2021", "Philadelphia, PA", 
     "Thesis: Effects of message framing on neural responses to persuasive message and health
      	behavior change",
   
@@ -45,25 +45,50 @@ tribble(
 
 
 # ACADEMIC POSITIONS
+
 ```{r academic}
 
 tribble(~ role, ~ company, ~ loc, ~ dates, ~ details,
-"Teaching Assistant", "Department of Psychology, University of Pennsylvania", "Phildelphia,PA", "Jan. 2021 – Dec. 2021", list("Introduction to Experimental Psychology; Spring, 2021, Rebecca Waller, Ph.D.; Fall 2021, Anna Jenkins, Ph.D.","Worked one-on-one with 50+ students to provide mentorship for their study plans", "Created student evaluation tools", "Graded and provided qualitative feedback on student essays"),
+"Teaching Assistant", "Department of Psychology, University of Pennsylvania", "Phildelphia,PA", "Jan. 2021 – Dec. 2021", list("Introduction to Experimental Psychology (Spring 2021, Rebecca Waller, Ph.D.; Fall 2021, Anna Jenkins, Ph.D.)","Worked one-on-one with 50+ students to provide mentorship for their study plans", "Created student evaluation tools; graded and provided qualitative feedback on student essays"),
 
-"Research Associate", "Applied Brain Cognition Lab, Yonsei University (P.I.: Sanghoon Han, Ph.D.) & Integrated Neurocognitive Functional Imaging Center, Yonsei University Severance Hospital (P.I.: Seung-Koo Lee, M.D., Ph.D.)", "Seoul, South Korea", "April. 2015 – Mar. 2019", list("Designed and directed 7+ end-to-end behavioral and neuroimaging projects, resulting in 3 first-author publications, an award- winning Master’s thesis, and 6 international conference presentation","Provided extensive technical support and mentorship to other researchers in the lab on research project management, neuroimaging analyses, data quality control, and MATLAB scripting"),
+"Research Associate", "Applied Brain Cognition Lab, Yonsei University (P.I.: Sanghoon Han, Ph.D.) & Integrated Neurocognitive Functional Imaging Center, Yonsei University Severance Hospital (P.I.: Seung-Koo Lee, M.D., Ph.D.)", "Seoul, South Korea", "April. 2015 – Mar. 2019", list("Designed and directed 7+ end-to-end behavioral and neuroimaging projects, resulting in 3 first-author publications, an award- winning Master’s thesis, and 6 international conference presentations","Provided extensive technical support and mentorship to cross-functional collaborators on research project management, neuroimaging analyses, data quality control, and MATLAB scripting"),
 
-"Research Consultant", "Team Quantumlabs", "Seoul, South Korea", "Mar. 2016 – Feb. 2018", list('A start-up company developing a novel neurostimulation device','Conducted A/B tests (psychological/behavioral experiments, neuroimaging experiments, in-depth interviews) to evaluate the usability and efficacy of the product','Presented findings to cross-functional stakeholders (venture capital funders, designers, engineers), leading to an award at Yonsei Start-up Competition and the successful acquisition of 100K USD in funding'),
-
-"Research Coordinator", "Institute of Human Behavior, Yonsei University", "Seoul, South Korea", "Mar 2016 – Aug 2016", list("Managed research funding for all Psychology labs in Yonsei University", "Coordinated Psychology departmental events"),
+"Research Consultant", "Team Quantumlabs", "Seoul, South Korea", "Mar. 2016 – Feb. 2018", list('Conducted A/B tests (psychological/behavioral experiments, neuroimaging experiments, in-depth interviews) to evaluate the usability and efficacy of a novel neurostimulation device','Presented findings to cross-functional stakeholders (venture capital funders, designers, engineers), leading to an award at Yonsei Start-up Competition and the successful acquisition of \\$100K in funding'),
 
 "Research Coordinator", "Brain Korea 21+, National Research Foundation of Korea", "Seoul, South Korea", "Jun 2017 – Feb 2018", list("Managed research funding for Yonsei Applied Brain Cognition Lab"),
 
-"Research Assistant", "Laboratory of Social Decision Neuroscience, Korea University (Advisor: Hackjin Kim, Ph.D.)", "Seoul, South Korea", "Nov 2014 – April 2015", list("Managed participants for an EEG hyperscanning experiment")
-) %>% detailed_entries(company, loc, role, dates, details)
+"Research Coordinator", "Institute of Human Behavior, Yonsei University", "Seoul, South Korea", "Mar 2016 – Aug 2016", list("Managed research funding for all Psychology laboratories in Yonsei University", "Coordinated Psychology departmental events"),
 
+"Research Assistant", "Laboratory of Social Decision Neuroscience, Korea University (Advisor: Hackjin Kim, Ph.D.)", "Seoul, South Korea", "Nov 2014 – April 2015", list("Collected behavioral and neuroimaging data (e.g., managing participants) for an EEG hyperscanning experiment")
+) %>% detailed_entries(company, loc, role, dates, details)
 ```
 
+# PUBLICATIONS
+
+```{r}
+bibliography_entries("publications.bib")
+```
+
+# WORKING PAPERS
+
+```{r}
+bibliography_entries("working_papers.bib")
+```
+
+# PRESENTATIONS
+## Invited Talks
+```{r}
+bibliography_entries("invited_talks.bib")
+```
+
+## Conference Poster Presentations
+```{r}
+bibliography_entries("presentations.bib")
+```
+
+
 # SCHOLARSHIPS
+
 ```{r}
 tribble(
   ~Year, ~Name, ~Institution, ~Supp, ~Amount,
@@ -81,6 +106,7 @@ tribble(
 ```
 
 # HONORS & AWARDS
+
 ```{r}
 tribble(
   ~Year, ~Name, ~Institution, ~Supp, ~Amount,
@@ -94,8 +120,7 @@ tribble(
 
   '2016', "Yonsei Start-up Challenge Award", "Yonsei Enterprise Support Foundation",'Presented A/B test findings for a novel neurostimulation device developed by a start-up company, Team Quantumlabs; Led to $100K in funding',NA,
   
-  '2011, 2013, 2014', "Dean's Honors", "Department of Psychology, Korea University",'For 5 semesters in total; 2014, Fall Semester (GPA 4.25/4.5); 2014, Spring Semester (GPA 4.25/4.5); 2013, Spring Semester (GPA 4.0/4.5)
-2011, Fall Semester (GPA 4.11/4.5); 2011, Spring Semester (GPA 4.37/4.5)',NA
+  '2011, 2013, 2014', "Dean's Honors", "Department of Psychology, Korea University",'For 5 semesters; 2014, Fall Semester (GPA 4.25/4.5); 2014, Spring Semester (GPA 4.25/4.5); 2013, Spring Semester (GPA 4.0/4.5); 2011, Fall Semester (GPA 4.11/4.5); 2011, Spring Semester (GPA 4.37/4.5)',NA
   
 ) %>%
   detailed_entries(
@@ -107,18 +132,17 @@ tribble(
   )
 ```
 
-# PUBLICATIONS
-```{r}
-bibliography_entries("publications.bib")
-```
+# VOLUNTEER ACTIVITIES & OUTREACH
 
-# PRESENTATIONS
-## Invited Talks
-```{r}
-bibliography_entries("presentations.bib")
-```
+```{r volunteer}
 
-## Conference Poster Presentations
-```{r}
-bibliography_entries("presentations.bib")
+tribble(~ role, ~ company, ~ loc, ~ dates, ~ details,
+"Consultant", "Penn Biotech Group Healthcare Consulting", "Phildelphia,PA", "Sept. 2022~ Present", list("Presented weekly deliverables to a biotherapeutic start-up company by analyzing the market landscape for a novel cancer therapy that will have a high impact on 1M+ tumor patients", "Led in-depth interviews with healthcare stakeholders and qualitatively evaluated 200+ clinical trials and company profiles, providing data-driven recommendations and benchmarks for partnership opportunities, market sizing and product pricing","Conducted fast-paced research and extensive literature reviews to meet the client’s needs and timeline"),
+
+"Data Analyst", "Penn Mind Sciences Diversity and Equity Initiative", "Phildelphia,PA", "Mar. 2022~ Present", list("Designed and collected online surveys (Qualtrics) to assess participants’ experience with an outreach program that mentors underrepresented minority students in their career paths in science", "Wrangled and analyzed pre- vs. post- event data, including qualitatively reviewing participants’ written feedback", "Visualized outcomes using ggplot2, wordcloud, R Markdown and presented actionable insights and recommendations to organizers to improve the program"),
+
+"Data Scientist", "Penn Data Science Group", "Phildelphia,PA", "Feb. 2022 ~ May 2022", list("Collaborated cross-functionally to wrangle and analyze climate data in the greater Philadelphia area", "Created interactive maps that visualize air quality and relevant health outcomes, which were used by the client (climate activists and researchers) to efficiently communicate their cause to climate policymakers")
+
+) %>% detailed_entries(company, loc, role, dates, details)
+
 ```
