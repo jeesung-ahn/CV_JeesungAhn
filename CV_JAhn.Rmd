@@ -38,7 +38,7 @@ tribble(
   
    "B.A. in Psychology & B.S. in Brain and Cognitive Sciences, Korea University", "Department of Psychology, College of Information and Communications", "Mar. 2011 - Aug. 2015", "Seoul, South Korea", NA,
   
-   "Exchange Student Program, Macquarie University", "Department of Psychology", "July, 2013 - Dec. 2013", "Sydney, Australia",  NA
+   "Exchange Student Program, Macquarie University", "Department of Psychology", "July 2013 - Dec. 2013", "Sydney, Australia",  NA
 ) %>% 
   detailed_entries(lab, dates, degree, loc, details)
 ```
@@ -49,17 +49,19 @@ tribble(
 ```{r academic}
 
 tribble(~ role, ~ company, ~ loc, ~ dates, ~ details,
-"Teaching Assistant", "Department of Psychology, University of Pennsylvania", "Phildelphia,PA", "Jan. 2021 – Dec. 2021", list("Introduction to Experimental Psychology (Spring 2021, Rebecca Waller, Ph.D.; Fall 2021, Anna Jenkins, Ph.D.)","Worked one-on-one with 50+ students to provide mentorship for their study plans", "Created student evaluation tools; graded and provided qualitative feedback on student essays"),
+"Doctoral Researcher", "Communication Neuroscience Lab, Department of Psychology, University of Pennsylvania", "Phildelphia,PA", "Aug. 2019 – Present", list("Leading 8+ multidisciplinary research projects in the domain of experimental psychology and social/health neuroscience","Utilizing brain and social network data to develop machine learning models that make data-driven predictions on the effectiveness of health interventions in changing health behaviors (e.g., drinking, physical activity) and improving physical and mental well-being (e.g., loneliness)","Closely collaborating with cross-functional teams from 10+ institutions and 80+ researchers, including program managers, funders, data scientists, and engineers; honing skills in effectively visualizing and communicating complex scientific findings to diverse audiences"),
 
-"Research Associate", "Applied Brain Cognition Lab, Yonsei University (P.I.: Sanghoon Han, Ph.D.) & Integrated Neurocognitive Functional Imaging Center, Yonsei University Severance Hospital (P.I.: Seung-Koo Lee, M.D., Ph.D.)", "Seoul, South Korea", "April. 2015 – Mar. 2019", list("Designed and directed 7+ end-to-end behavioral and neuroimaging projects, resulting in 3 first-author publications, an award- winning Master’s thesis, and 6 international conference presentations","Provided extensive technical support and mentorship to cross-functional collaborators on research project management, neuroimaging analyses, data quality control, and MATLAB scripting"),
+"Teaching Assistant", "Department of Psychology, University of Pennsylvania", "Phildelphia,PA", "Jan. 2021 – Dec. 2021", list("Introduction to Experimental Psychology (Spring 2021, Rebecca Waller, Ph.D.; Fall 2021, Anna Jenkins, Ph.D.)","Provided one-on-one mentorship to over 50 students to assist with the development of their study plans", "Developed evaluation tools for students and provided thorough grading and qualitative feedback on their essays"),
 
-"Research Consultant", "Team Quantumlabs", "Seoul, South Korea", "Mar. 2016 – Feb. 2018", list('Conducted A/B tests (psychological/behavioral experiments, neuroimaging experiments, in-depth interviews) to evaluate the usability and efficacy of a novel neurostimulation device','Presented findings to cross-functional stakeholders (venture capital funders, designers, engineers), leading to an award at Yonsei Start-up Competition and the successful acquisition of \\$100K in funding'),
+"Research Associate", "Applied Brain Cognition Lab, Yonsei University (P.I.: Sanghoon Han, Ph.D.) & Integrated Neurocognitive Functional Imaging Center, Yonsei University Severance Hospital (P.I.: Seung-Koo Lee, M.D., Ph.D.)", "Seoul, South Korea", "April. 2015 – Mar. 2019", list("Designed and directed 7+ end-to-end behavioral and neuroimaging projects, resulting in 3 first-author publications, an award-winning Master’s thesis, and 6 international conference presentations", "Collaborated with cross-functional teams to develop a mobile application for treating social anxiety; conducted behavioral and neuroimaging experiments, in-depth interviews, and supervised machine learning analyses to evaluate user experience and the clinical efficacy of the application", "Provided extensive technical support and mentorship to onboarding researchers regarding research project management, neuroimaging analyses, data quality control, and MATLAB scripting"),
 
-"Research Coordinator", "Brain Korea 21+, National Research Foundation of Korea", "Seoul, South Korea", "Jun 2017 – Feb 2018", list("Managed research funding for Yonsei Applied Brain Cognition Lab"),
+"UX Research Consultant", "Team Quantumlabs", "Seoul, South Korea", "Mar. 2016 – Feb. 2018", list("Provided UX consulting services to a start-up company on the efficacy of their novel neurostimulation technology in enhancing cognitive functions, such as attention capacity", "Designed and conducted A/B tests and usability studies of their product, which led to the successful acquisition of $100K in funding", "Led a team that presented findings to cross-functional stakeholders, including venture capital funders, designers, engineers, and clinicians, to inform and advocate the direction of product development"),
 
-"Research Coordinator", "Institute of Human Behavior, Yonsei University", "Seoul, South Korea", "Mar 2016 – Aug 2016", list("Managed research funding for all Psychology laboratories in Yonsei University", "Coordinated Psychology departmental events"),
+"Research Coordinator", "Brain Korea 21+, National Research Foundation of Korea", "Seoul, South Korea", "Jun 2017 – Feb 2018", list("Managed research funding and travel funds for Yonsei Applied Brain Cognition Lab", "Prepared and submitted the annual review report for the lab"),
 
-"Research Assistant", "Laboratory of Social Decision Neuroscience, Korea University (Advisor: Hackjin Kim, Ph.D.)", "Seoul, South Korea", "Nov 2014 – April 2015", list("Collected behavioral and neuroimaging data (e.g., managing participants) for an EEG hyperscanning experiment")
+"Research Coordinator", "Institute of Human Behavior, Yonsei University", "Seoul, South Korea", "Mar 2016 – Aug 2016", list("Managed funding for academic and social events within the Department of Psychology at Yonsei University, including coordinating guest speaker series"),
+
+"Research Assistant", "Laboratory of Social Decision Neuroscience, Korea University (Advisor: Hackjin Kim, Ph.D.)", "Seoul, South Korea", "Nov 2014 – April 2015", list("Collected behavioral and neuroimaging data for an EEG hyperscanning experiment")
 ) %>% detailed_entries(company, loc, role, dates, details)
 ```
 
@@ -143,6 +145,18 @@ tribble(~ role, ~ company, ~ loc, ~ dates, ~ details,
 
 "Data Scientist", "Penn Data Science Group", "Phildelphia,PA", "Feb. 2022 – May 2022", list("Collaborated cross-functionally to wrangle and analyze climate data in the greater Philadelphia area", "Created interactive maps that visualize air quality and relevant health outcomes, which were used by the client (climate activists and researchers) to efficiently communicate their cause to climate policymakers")
 
+) %>% detailed_entries(company, loc, role, dates, details)
+
+```
+
+# OTHER EXPERIENCE
+```{r}
+
+
+tribble(~ role, ~ company, ~ loc, ~ dates, ~ details,
+"Summer Intern", "KB Kookmin Bank", "Seoul, South Korea", "July 2014 – Aug. 2014", list("Received training at the largest commercial bank in South Korea in 1) managing client data and 2) communicating with clients to better understand and meet their needs, making their experience with the bank more pleasant"),
+
+"Student Intern", "Korean Cultural Center, Australia", "Seoul, South Korea", "Sep. 2013 – Dec. 2013", list("Directly interfaced with clients visiting the center as a primary receptionist and provided spoken and written translation services between English and Korean", "Performed weekly monitoring of Korean-related media content broadcast in Australia", "Actively participated in the organization of Korean cultural events, such as K-pop dance contests and Korean speech contests, in Sydney, Australia"),
 ) %>% detailed_entries(company, loc, role, dates, details)
 
 ```
