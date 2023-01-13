@@ -118,7 +118,7 @@ tribble(
   
   '2018', "Best Master's Thesis Award", "Yonsei University Graduate Group", 'For the thesis titled "Voxel-wise mapping of functional magnetic resonance imaging in impression formation"',NA,
   
-  '2017', "Interdisciplinary Research Initiative Award, Grand Prize", "Institute of Convergence Science (ICONS), Yonsei University",'Collaborated with electrical engineers to enhance brain image resolution using deep learning; awarded $5K research funding;',NA,
+  '2017', "Interdisciplinary Research Initiative Award, Grand Prize", "Institute of Convergence Science (ICONS), Yonsei University",'Collaborated with electrical engineers to enhance brain image resolution using deep learning; awarded $5K research funding',NA,
 
   '2016', "Yonsei Start-up Challenge Award", "Yonsei Enterprise Support Foundation",'Presented A/B test findings for a novel neurostimulation device developed by a start-up company, Team Quantumlabs; led to $100K in funding',NA,
   
