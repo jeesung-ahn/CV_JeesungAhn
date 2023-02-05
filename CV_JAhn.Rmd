@@ -3,7 +3,6 @@ name: Jeesung Ahn
 date: "`r format(Sys.time(), '%B, %Y')`"
 position: Psychologist | Neuroscientist | Researcher
 address: Department of Psychology, University of Pennsylvania, Philadelphia, PA
-phone: +1 215 730 4818
 email: jeesung@sas.upenn.edu
 linkedin: jeesung-ahn
 www: jeesung-ahn.github.io
