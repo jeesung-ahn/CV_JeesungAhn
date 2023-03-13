@@ -111,6 +111,8 @@ tribble(
 ```{r}
 tribble(
   ~Year, ~Name, ~Institution, ~Supp, ~Amount,
+    '2023', 'Comcast Applied AI Award', 'Philly Codefest 2023', 'Built an AR application that will enable customers to easily troubleshoot internet issues', NA,
+  
     '2022', 'Graduate Travel Award', 'University of Pennsylvania, International Communication Association Conference 2022 ', NA, NA,
 
   '2022', 'Top Poster Award', 'Social Affective Neuroscience Society 2022 ', 'Presented findings at an invited talk, titled "Brain responses to gain- and loss-framed messages differ, and interact with baseline physical activity, to predict later behaviors"', NA,
@@ -140,7 +142,7 @@ tribble(
 tribble(~ role, ~ company, ~ loc, ~ dates, ~ details,
 "Consultant", "Penn Biotech Group Healthcare Consulting", "Phildelphia,PA", "Sept. 2022 – Present", list("Presented weekly deliverables to a biotherapeutic start-up company by analyzing the market landscape for a novel cancer therapy that has the potential to significantly impact 1M+ tumor patients","Led in-depth interviews with healthcare stakeholders and qualitatively evaluated 200+ clinical trials and company profiles, which helped the client to make informed decisions regarding partnership opportunities, market sizing, and product pricing","Executed agile and meticulous research, complemented by extensive literature reviews, in order to fulfill the client’s needs and adhere to the established timeline"),
 
-"Data Analyst", "Penn Mind Sciences Diversity and Equity Initiative", "Phildelphia,PA", "Mar. 2022 – Present", list("Designed and administered online surveys (using Qualtrics) to assess participants’ experience with an outreach program that provides mentorship to underrepresented minority students in their careers in science","Wrangled and analyzed pre- vs. post- event data, including qualitatively reviewing participants’ written feedback","Visualized event outcomes using ggplot2, wordcloud, and R Markdown and presented actionable insights and recommendations to the program organizers to improve the program"),
+"Data Scientist", "Penn Mind Sciences Diversity and Equity Initiative", "Phildelphia,PA", "Mar. 2022 – Present", list("Designed and administered online surveys (using Qualtrics) to assess participants’ experience with an outreach program that provides mentorship to underrepresented minority students in their careers in science","Wrangled and analyzed pre- vs. post- event data, including qualitatively reviewing participants’ written feedback","Visualized event outcomes using ggplot2, wordcloud, and R Markdown and presented actionable insights and recommendations to the program organizers to improve the program"),
 
 "Data Scientist", "Penn Data Science Group", "Phildelphia,PA", "Feb. 2022 – May 2022", list("Organized and processed publicly available air quality data and related health outcomes", "Created interactive maps that visualize the information, thereby enabling the client to communicate their message effectively to climate policymakers")
 
