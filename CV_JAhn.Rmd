@@ -132,14 +132,6 @@ cat("\n")
 
 ```
 
-##
-```{r}
-```
-
-##
-```{r}
-```
-
 
 # VOLUNTEER ACTIVITIES & OUTREACH
 ```{r volunteer}
